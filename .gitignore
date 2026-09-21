@@ -1,0 +1,34 @@
+# Sensitive data - NEVER COMMIT
+data/
+keys/
+*.log
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project-specific sensitive folders
+Employee-data/
+Master-data/
+EpicAPI-not-working/
+Knowledge file/
+
+# Temporary
+.claude/
